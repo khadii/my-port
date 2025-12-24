@@ -43,9 +43,9 @@ export function Hero() {
             </div>
 
             <label className="text-sm text-muted-foreground cursor-pointer hover:text-primary transition-colors">
-              <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" />
+              {/* <input className="hidden" /> */}
               <span className="inline-block px-4 py-2 rounded-lg border border-border hover:border-primary transition-colors">
-                Upload photo
+             KADIRI
               </span>
             </label>
           </div>
